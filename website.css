@@ -1,0 +1,214 @@
+.a1{
+	width:100%;
+	height:85px;
+	background-color:#0033cc;
+	float:left;
+	text-align:left;
+	color:white;	
+}
+.a2{
+	width:100%;
+	background-color:#9BB4D5;
+	text-align:right;
+	float:right;
+}
+.a2 a{
+	padding: 14px 16px;
+	color:#0033cc;
+	float:right;
+	text-align:right;
+	font-size:20px;
+	font-family:times new roman;
+	display:block;
+	text-decoration:none;
+}
+.a2 a:hover{
+background-color:green;
+color:#e6ffff;
+}
+.a3 {
+	width:100%;
+	height:35px;
+	background-color:#e6ffff;
+	float:left;
+	text-align:right;
+	font-size:18px;
+	
+}
+.a1 img{
+	float:left;
+	
+}
+
+.a3 a{
+	padding:6px 10px;
+	display:block;
+	float:right;
+	text-decoration:none;
+}
+.a3 a:hover{
+	background-color:#1db594;
+	color:#070930;
+	overflow:hidden;
+}
+.a4{
+	width:100%;
+	height:50px;
+	background-color:#0033cc;
+	
+}
+body, html {
+  height: 70%;
+  text-align:center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  
+  background-image: url("earth.jpg");
+
+  
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  
+  height: 100%; 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.n{
+	text-align:center;
+	float:center;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size:30px;
+}
+h3{
+	text-align:center;
+}
+.left{
+	display: block ;
+	margin-left:auto;
+	margin-right:auto;
+}
+.zoom {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color:#ede4e1;
+}
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom1 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color:#ede4e1;
+}
+.zoom1:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom2 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color:#ede4e1;
+}
+.zoom2:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom3 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color:#ede4e1;
+}
+.zoom3:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom4 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color:#ede4e1;
+}
+.zoom4:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.text{
+	width:50%;
+	float:right;
+	height:530px;
+	color:#17647a;
+	background-color:#ede4e1;
+	text-align:left;
+}
+.text1{
+	width:50%;
+	float:right;
+	height:480px;
+	color:#17647a;
+	background-color:#ede4e1;
+	text-align:left;
+}.text2{
+	width:50%;
+	float:right;
+	height:390px;
+	color:#17647a;
+	background-color:#ede4e1;
+	text-align:left;
+}.text3{
+	width:50%;
+	float:right;
+	height:250px;
+	color:#17647a;
+	background-color:#ede4e1;
+	text-align:left;
+}.text4{
+	width:50%;
+	text-align:left;
+	float:right;
+	height:250px;
+	color:#17647a;
+	background-color:#ede4e1;
+}
+body{
+	background-color:#ede4e1;
+}

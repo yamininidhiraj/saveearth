@@ -1,0 +1,146 @@
+.aa{
+	width:100%;
+	height:85px;
+	background-color:#0033cc;
+	float:left;
+	text-align:left;
+	color:white;	
+}
+.bb{
+	width:100%;
+	background-color:#9BB4D5;
+	text-align:right;
+	float:right;
+}
+.bb a{
+	padding: 14px 16px;
+	color:#0033cc;
+	float:right;
+	text-align:right;
+	font-size:20px;
+	font-family:times new roman;
+	display:block;
+	text-decoration:none;
+}
+.bb a:hover{
+background-color:green;
+color:#e6ffff;
+}
+.cc {
+	width:100%;
+	height:35px;
+	background-color:#e6ffff;
+	float:left;
+	text-align:right;
+	font-size:18px;
+	
+}
+.aa img{
+	float:left;
+	
+}
+
+.cc a{
+	padding:6px 10px;
+	display:block;
+	float:right;
+	text-decoration:none;
+}
+.cc a:hover{
+	background-color:#1db594;
+	color:#070930;
+	overflow:hidden;
+}
+
+.center{
+	display: block ;
+	margin-left:auto;
+	margin-right:auto;
+}
+.a3{
+	width:100%;
+	height:50px;
+	background-color:#0033cc;
+	
+}
+.a2{
+	width:100%;
+	float:center;
+	text-align:center;
+	border: 2px solid #8c8c8c ;
+	padding: 16px;
+	font-size:15px;
+}
+
+.a4{
+	width:45%;
+	text-align:center;
+	border: 2px solid #8c8c8c ;
+	padding: 16px;
+	float:left;
+	font-size:15px;
+	
+}
+.a5{
+	width:45%;
+	text-align:center;
+	border: 2px solid #8c8c8c ;
+	padding: 16px;
+	float:right;
+	font-size:15px;
+	
+}
+h1{
+	text-align:center;
+	text-decoration:underline;
+}
+h3{
+	text-align:center;
+	font-weight:bold;
+}
+.x{
+	width:100%;
+	height:50px;
+	background-color:#ccccff;
+	float:left;
+	text-align:right;
+	font-size:20px;
+
+}
+.zoom1 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 27%;
+  height: 300px;
+  margin: 0 auto;
+}
+.zoom1:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom2 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 27%;
+  height: 300px;
+  margin: 0 auto;
+}
+.zoom2:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom3 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 25%;
+  height: 300px;
+  margin: 0 auto;
+}
+.zoom3:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.space{
+	width:100%;
+	height:350px;
+}

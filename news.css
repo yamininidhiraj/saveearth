@@ -1,0 +1,125 @@
+.aa{
+	width:100%;
+	height:85px;
+	background-color:#0033cc;
+	float:left;
+	text-align:left;
+	color:white;	
+}
+.bb{
+	width:100%;
+	background-color:#9BB4D5;
+	text-align:right;
+	float:right;
+}
+.bb a{
+	padding: 14px 16px;
+	color:#0033cc;
+	float:right;
+	text-align:right;
+	font-size:20px;
+	font-family:times new roman;
+	display:block;
+	text-decoration:none;
+}
+.bb a:hover{
+background-color:green;
+color:#e6ffff;
+}
+.cc {
+	width:100%;
+	height:35px;
+	background-color:#e6ffff;
+	float:left;
+	text-align:right;
+	font-size:18px;
+	
+}
+.aa img{
+	float:left;
+	
+}
+
+.cc a{
+	padding:6px 10px;
+	display:block;
+	float:right;
+	text-decoration:none;
+}
+.cc a:hover{
+	background-color:#1db594;
+	color:#070930;
+	overflow:hidden;
+}
+.a3{
+	width:100%;
+	height:100px;
+	background-color:#0033cc;
+}
+.center{
+	display: block ;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.zoom1 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 27%;
+  height: 300px;
+  margin: 0 auto;
+}
+.zoom1:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom2 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 27%;
+  height: 300px;
+  margin: 0 auto;
+}
+.zoom2:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom3 {
+  padding: 30px;
+  float:left;
+  transition: transform .2s; /* Animation */
+  width: 25%;
+  height: 300px;
+  margin: 0 auto;
+}
+.zoom3:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.p1{
+	width:50%;
+	float:right;
+	text-align:center;
+	color:#2a292b;
+}
+.s{
+	width:50%;
+	float:left;
+	text-align:center;
+	color:#5b575e;
+	font-size:20px;
+}
+
+.d {
+  padding: 30px;
+  float:right;
+  transition: transform .2s; /* Animation */
+  width: 45%;
+  height: 300px;
+  margin: 0 auto;
+}
+.d:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+body{
+	background-color:#dfe6e8;
+}
